@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void calculadoraIMC(View view){
-        view.setBackgroundColor(Color.argb(250,250,30,30));
+
         EditText editTextPeso = findViewById(R.id.editTextPeso);
         EditText editTextAltura = findViewById(R.id.editTextAltura);
 
