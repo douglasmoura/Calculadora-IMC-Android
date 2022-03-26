@@ -65,8 +65,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public double imc(double peso, double altura) {
-        double imc = peso / (altura * altura);
-        return imc;
+        return peso / (altura * altura);
     }
 
 }
